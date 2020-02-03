@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Footer from './footer';
+// import Footer from './footer';
 
-import './App.scss';
+// import './App.scss';
 import Text from "./text.json";
 
 class App extends Component {
@@ -13,7 +13,7 @@ class App extends Component {
   render(){
     return (
       <div className="App">
-      <Footer />
+      {/* <Footer /> */}
       <div className="analog_clock">
       {/* <Clock title="Tokyo" datediff={1}/>
       <Clock title="London" datediff={-1} />
